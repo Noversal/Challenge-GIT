@@ -35,7 +35,7 @@ Sigue los pasos detallados a continuación. Cada paso debe completarse en tu ter
 3. **Crea una nueva rama** llamada `feature-responsiveness` y cámbiate a esa rama.
    - Comando:
      ```bash
-     # Indica el comando utilizado
+     git switch -c feature-responsiveness
      ```
 
 4. En la rama `feature-responsiveness`, **modifica el archivo `styles.css`** añadiendo reglas de estilos responsive.
@@ -43,12 +43,12 @@ Sigue los pasos detallados a continuación. Cada paso debe completarse en tu ter
    Haz un commit con el mensaje `"Añadir estilos responsive"`.
    - Comando para añadir el archivo al stage:
      ```bash
-     # Indica el comando utilizado
+     git add style.css
      ```
 
    - Comando para hacer el commit:
      ```bash
-     # Indica el comando utilizado
+     git commit -m "Añadir estilos responsive"
      ```
 
 5. **Cambia a la rama `main`** y modifica el archivo `index.html`, añadiendo el texto "Bienvenido al sitio web" dentro del body.

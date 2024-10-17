@@ -9,17 +9,38 @@ body {
 }
 
 main {
-	width: 900px;
+	max-width: 900px;
 	border: 1px solid black;
 	padding: 20px 40px;
 	margin: 20px auto;
 	border-radius: 20px;
+
+	@media (width < 801px) {
+		max-width: 620px;
+		padding: 20px;	
+	}
+
+	@media (width < 426px) {
+		max-width: 360px;
+	}
+
+	@media (width < 321px) {
+		margin: 8px;
+}
 }
 
 dialog {
 	max-width: 450px;
 	border-radius: 20px;
 	padding: 20px;
+
+	@media (width < 768px) {
+		width: 320px;	
+	}
+
+	@media (width < 321px) {
+		width: 270px;
+	}
 
 	section {
 		display: flex;
