@@ -56,7 +56,7 @@ Sigue los pasos detallados a continuación. Cada paso debe completarse en tu ter
    Realiza un commit con el mensaje `"Añadir texto de bienvenida en index.html"`.
    - Comando:
      ```bash
-     # Indica el comando utilizado
+     git commit -m "Añadir texto de bienvenida en index.html"
      ```
 
 6. **Crea otra rama llamada `feature-darkmode`** y cámbiate a esa rama.
